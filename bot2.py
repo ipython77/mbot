@@ -5,7 +5,7 @@ from gatet import Tele
 import os
 token = '7127316532:AAF4dBLavsx8pmHKENAh7T6ENS9hNbY39Nk'
 bot=telebot.TeleBot(token,parse_mode="HTML")
-subscriber ='5123986264'
+subscriber ='https://t.me/there_is_always_a_way, 5123986264'
 @bot.message_handler(commands=["start"])
 def start(message):
 	if not str(message.chat.id) == subscriber:
